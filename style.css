@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background:linear-gradient(135deg, #153677, #4e085f);
+    padding:10px;
+}
+
+.playGame{
+    width: 100%;
+    max-width: 540px;
+    background:#fff ;
+    margin: 100px auto 20px;
+    padding: 40px 30px 40px;
+    border-radius: 10px;
+    
+}
+
+.playerOne{
+    display: inline-grid;
+    grid-template-columns: min-content;
+    min-height: 250px;
+    min-width: 235px;
+    border: solid orangered 1px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    padding-top:25px;
+}
+
+
+
+.playerTwo{
+    display: inline-grid;
+    grid-template-columns: min-content;
+    min-height: 250px;
+    min-width: 235px;
+    border: solid orangered 1px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    padding-top:25px;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    max-width: 474px;
+}
+#results{
+    font-weight:bolder;
+    font-size: 40px;
+    padding: 10px 15px 10px;
+    transition: 0.2s;
+}
+
+#dice1,#dice2{
+    width: 233px;
+    border: solid orangered 1px;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#dice1:hover, #dice2:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
